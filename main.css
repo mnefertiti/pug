@@ -1,0 +1,26 @@
+#mainpug {
+    content: url('pug.jpg');
+}
+
+#mainpug:hover {
+    content: url('winkpug.jpg');
+}
+
+#mainpug:active {
+    content: url(kissywinkpug.jpg);
+}
+
+h1 {
+    font: 35px 'Roboto Slab', serif;
+}
+
+
+h1:hover ~ #mainpug {
+    content: url(blinkpug.jpg);
+}
+
+
+body {
+    text-align: center;
+    vertical-align: middle;
+}
